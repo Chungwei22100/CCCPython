@@ -1,0 +1,13 @@
+
+import random
+ans = random.randint(1,10)
+while True: 
+    guess = int(input('請在1~10之間，猜一個數字: '))
+    if guess>ans:
+        print ("小一點喔～")
+    elif guess>ans:
+        print ("大一點啦～")
+    else:
+        print('答對了欸！好棒棒喔～')
+        break
+        
