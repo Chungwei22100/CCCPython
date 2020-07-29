@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jul 29 20:02:51 2020
+
+@author: zhengs
+"""
+
+
+a=[]
+N=int(input('請問班上有幾個人?'))
+for i in range (N):
+    scores=int(input('請問分數為何?'))
+    a.append(scores)
+    
+total=0
+for i in a:
+    total=total+i
+     
+print ('Aver:', total//N)
+
